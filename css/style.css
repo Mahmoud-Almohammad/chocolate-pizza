@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Pacifico&family=Playfair+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body {
+    width: 1200px;
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    height: 100px;
+    margin-bottom: 1.5em;
+    position: relative;
+}
+
+header nav{
+    float: left;
+}
+
+header nav img {
+position: absolute;
+left: 20px;
+top: 50%;
+transform: translateY(-80%);
+}
+
+header nav h2 {
+    font-size: 30px;
+    position: relative;
+    left: 70px;
+    top: 15px;
+    font-family: 'Pacifico', cursive;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+header nav p {
+    position: relative;
+    top: 15px;
+    left: 70px;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 1.5em;
+    margin-top: 3px;
+    color: gray;
+}
+
+header div img {
+    margin-left: 2px;
+}
+
+header div {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header div img:nth-child(7) {
+margin-left: 10px;
+}
+
+main {
+    position: relative;
+}
+
+main h1 {
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.5em;
+    text-shadow: 3px gray;
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.9);
+
+}
+
+.desserts {
+    color: gray;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    
+}
+
+main .print {
+display: inline;
+position: absolute;
+right: 0;
+}
+
+main .print img {
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+    width: 15px;
+
+}
+
+main .print p {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 12px;
+    position: relative;
+    bottom: 44px;
+    right: 14px;
+}
+
+.choco-pizza {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+main p {
+    width: 85%;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+}
+
+.note-paper {
+    width: 100%;
+}
+
+.labels {
+    position: relative;
+    height: 400px;
+    background: url(../img/list-bg.png);
+    background-position: cover;
+    background-size: 100%;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.7);
+    columns: 2;
+    margin-bottom: 50px;
+    font-family: 'Satisfy', cursive;
+}
+
+ .labels .column-1, .labels .column-2 {
+    position: relative;
+top: 56px;
+left: 55px;
+line-height: 40px;
+}
+
+footer .author img {
+    position: absolute;
+}
+
+footer .author h2 {
+    position: relative;
+    left: 90px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+footer .author p {
+    position: relative;
+    left: 90px;
+    color: gray;
+    width: 550px;
+    line-height: 1.5em;
+}
+
+footer .author button {
+    position: relative;
+    bottom: 75px;
+    float: right;
+    color: #fff;
+    background-color: rgba(187, 53, 53, 0.825);
+    padding: 15px 30px;
+    border: none;
+}
+
+footer .author {
+    margin-bottom: 70px;
+}
+
+footer .copy-rights img {
+   margin: auto;
+   display: block;
+   position: relative;
+   margin-bottom: 20px;
+}
+
+.copy-rights hr {
+    position: relative;
+    top: 25px;
+}
+
+footer .copy-rights p {
+    text-align: center;
+    border: none;
+    color: rgb(171, 171, 171);
+}
+
+.copy-right {
+    margin-bottom: 40px;
+}
